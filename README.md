@@ -167,11 +167,5 @@ This project is licensed under the MIT License.
 
 ---
 
-## 📬 Contact
 
-For feedback, issues, or queries, please contact **\[[your-email@example.com](mailto:your-email@example.com)]** or open an issue in the repo.
-
----
-
-Let me know if you'd like help uploading this to GitHub or converting this into a styled webpage version for the project!
 
