@@ -1,49 +1,49 @@
+# 🎨 SketchifyAI
 
-🎨 SketchifyAI
 SketchifyAI is a full-stack AI-powered image-to-sketch web application. Built using Flask (Python) for the backend and modern frontend technologies, the app allows users to upload an image or use a webcam, select an artistic style, and generate a sketch version in real-time. It features a clean and responsive interface with support for image uploads, sketch previews, and downloads.
 
-📸 Preview
+---
+
+📸 **Preview**
 
 ### Upload and Generate Interface
 ![Screenshot1](screenshot1.png)
 
 ### Example Output
 ![Screenshot2](screenshot2.png)
+---
 
-🚀 Features
-🖼️ Upload photo or use webcam to capture
+## 🚀 Features
 
-✏️ Generate AI-based sketches
+* 🖼️ Upload photo or use webcam to capture
+* ✏️ Generate AI-based sketches
+* 🎨 Choose between sketch styles (e.g., pencil)
+* 📥 Download generated sketch
+* 🔄 Real-time rendering with fast preview
+* 🌐 CORS-enabled backend for smooth API calls
+* 💡 Intuitive UI built with HTML, CSS (Tailwind/Vanilla), JS
 
-🎨 Choose between sketch styles (e.g., pencil)
+---
 
-📥 Download generated sketch
+## 🛠️ Tech Stack
 
-🔄 Real-time rendering with fast preview
+### Frontend
 
-🌐 CORS-enabled backend for smooth API calls
+* HTML + CSS
+* JavaScript
+* Tailwind CSS (optional for styling)
 
-💡 Intuitive UI built with HTML, CSS (Tailwind/Vanilla), JS
+### Backend
 
-🛠️ Tech Stack
-Frontend
-HTML + CSS
+* Flask
+* Flask-CORS
+* Python
 
-JavaScript
+---
 
-Tailwind CSS (optional for styling)
+## 📁 Folder Structure
 
-Backend
-Flask
-
-Flask-CORS
-
-Python
-
-📁 Folder Structure
-pgsql
-Copy
-Edit
+```
 SketchifyAI/
 ├── backend/
 │   └── app.py
@@ -56,29 +56,38 @@ SketchifyAI/
 │   ├── original.png
 │   └── sketch.png
 └── README.md
-⚙️ Setup Instructions
-Prerequisites
-Python 3.x
+```
 
-pip (Python package manager)
+---
 
-1. Clone the Repository
-bash
-Copy
-Edit
+## ⚙️ Setup Instructions
+
+### Prerequisites
+
+* Python 3.x
+* pip (Python package manager)
+
+---
+
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/your-username/SketchifyAI.git
 cd SketchifyAI
-2. Backend Setup
-bash
-Copy
-Edit
+```
+
+---
+
+### 2. Backend Setup
+
+```bash
 cd backend
 pip install flask flask-cors
-Create a backend/app.py file with:
+```
 
-python
-Copy
-Edit
+Create a `backend/app.py` file with:
+
+```python
 from flask import Flask, jsonify
 from flask_cors import CORS
 
@@ -107,36 +116,62 @@ def process_data():
 
 if __name__ == '__main__':
     app.run(debug=True, port=5001)
+```
+
 Start the backend server:
 
-bash
-Copy
-Edit
+```bash
 python app.py
-3. Frontend Setup
-Simply open frontend/index.html in your browser, or serve it via a local server (e.g., VSCode Live Server).
+```
 
-🌐 Deployment
-✅ Backend can be deployed using services like Render, Railway, or Heroku.
+---
 
-✅ Frontend can be deployed on GitHub Pages, Netlify, or Vercel.
+### 3. Frontend Setup
 
-🔁 You can integrate both using Flask to serve static files if needed.
+Simply open `frontend/index.html` in your browser, or serve it via a local server (e.g., VSCode Live Server).
 
-🔒 Environment Variables (Optional)
-You can use .env files for secrets if integrating ML models or cloud storage.
+---
 
-🧪 Testing
-✅ Upload image and check if preview shows
+## 🌐 Deployment
 
-✅ Click "Generate Sketch" to test sketch rendering
+* ✅ Backend can be deployed using services like Render, Railway, or Heroku.
+* ✅ Frontend can be deployed on GitHub Pages, Netlify, or Vercel.
+* 🔁 You can integrate both using Flask to serve static files if needed.
 
-✅ Try webcam input (if supported)
+---
 
-✅ Click download button to save result
+## 🔒 Environment Variables (Optional)
 
-🤝 Contributions
+You can use `.env` files for secrets if integrating ML models or cloud storage.
+
+---
+
+## 🧪 Testing
+
+* ✅ Upload image and check if preview shows
+* ✅ Click "Generate Sketch" to test sketch rendering
+* ✅ Try webcam input (if supported)
+* ✅ Click download button to save result
+
+---
+
+## 🤝 Contributions
+
 Feel free to fork the repo and submit a pull request. All improvements and suggestions are welcome!
 
-📄 License
+---
+
+## 📄 License
+
 This project is licensed under the MIT License.
+
+---
+
+## 📬 Contact
+
+For feedback, issues, or queries, please contact **\[[your-email@example.com](mailto:your-email@example.com)]** or open an issue in the repo.
+
+---
+
+Let me know if you'd like help uploading this to GitHub or converting this into a styled webpage version for the project!
+
